@@ -23,7 +23,7 @@ User-agent: Twitterbot
 Allow: /
 
 # Sitemap
-Sitemap: https://beerhousebarteques.com.mx/sitemap.xml
+Sitemap: sitemap.xml
 
 # Tiempo de espera entre solicitudes
 Crawl-delay: 10

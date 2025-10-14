@@ -14,9 +14,9 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/hero.jpg</image:loc>
-      <image:title>BeerHouse Bar & Terraza en Zacatepec</image:title>
-      <image:caption>El mejor ambiente en Zacatepec. Bar único con terraza y música en vivo.</image:caption>
+      <image:loc>assets/img/hero.jpg</image:loc>
+      <image:title>BeerHouse Bar & Terraza en Teques</image:title>
+      <image:caption>El mejor ambiente en Teques. Bar único con terraza y música en vivo.</image:caption>
     </image:image>
   </url>
 
@@ -27,7 +27,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/gallery-4.jpg</image:loc>
+      <image:loc>assets/img/gallery-4.jpg</image:loc>
       <image:title>Cocteles especiales y bebidas tropicales de BeerHouse</image:title>
     </image:image>
   </url>
@@ -38,8 +38,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/gallery-3.jpg</image:loc>
-      <image:title>Evento con música en vivo en BeerHouse Zacatepec</image:title>
+      <image:loc>assets/img/gallery-3.jpg</image:loc>
+      <image:title>Evento con música en vivo en BeerHouse Teques</image:title>
     </image:image>
   </url>
 
@@ -49,19 +49,19 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/gallery-1.jpg</image:loc>
-      <image:title>Terraza de BeerHouse en Zacatepec</image:title>
+      <image:loc>assets/img/gallery-1.jpg</image:loc>
+      <image:title>Terraza de BeerHouse en Teques</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/gallery-2.jpg</image:loc>
+      <image:loc>assets/img/gallery-2.jpg</image:loc>
       <image:title>Barra principal de BeerHouse con variedad de bebidas y cocteles</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/gallery-5.jpg</image:loc>
+      <image:loc>assets/img/gallery-5.jpg</image:loc>
       <image:title>Fiesta hawaiana temática en BeerHouse con decoración tropical</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/gallery-6.jpg</image:loc>
+      <image:loc>assets/img/gallery-6.jpg</image:loc>
       <image:title>Área lounge de BeerHouse con cómodos asientos y ambiente relajado</image:title>
     </image:image>
   </url>
@@ -80,24 +80,24 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/insta-1.jpg</image:loc>
-      <image:title>Publicación de Instagram: Atardecer en BeerHouse Zacatepec</image:title>
+      <image:loc>assets/img/insta-1.jpg</image:loc>
+      <image:title>Publicación de Instagram: Atardecer en BeerHouse Teques</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/insta-2.jpg</image:loc>
+      <image:loc>assets/img/insta-2.jpg</image:loc>
       <image:title>Publicación de Instagram: Grupo de amigos disfrutando en BeerHouse</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/insta-3.jpg</image:loc>
+      <image:loc>assets/img/insta-3.jpg</image:loc>
       <image:title>Publicación de Instagram: Cocteles tropicales de BeerHouse</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/insta-4.jpg</image:loc>
+      <image:loc>assets/img/insta-4.jpg</image:loc>
       <image:title>Publicación de Instagram: Evento musical en BeerHouse</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://beerhousebarteques.com.mx/assets/img/insta-5.jpg</image:loc>
-      <image:title>Publicación de Instagram: Vista del ambiente en BeerHouse Zacatepec</image:title>
+      <image:loc>assets/img/insta-5.jpg</image:loc>
+      <image:title>Publicación de Instagram: Vista del ambiente en BeerHouse Teques</image:title>
     </image:image>
   </url>
 </urlset>
