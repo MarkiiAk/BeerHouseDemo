@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initProgressBar();
   initRailNavigation();
   initRevealAnimations();
+  initFloatingButtons();
 });
 
 /**
@@ -196,4 +197,35 @@ function initRevealAnimations() {
   
   // Ejecutar al hacer scroll
   window.addEventListener('scroll', revealOnScroll);
+}
+
+/**
+ * Botones flotantes (volver arriba y WhatsApp)
+ */
+function initFloatingButtons() {
+  const backToTopBtn = document.querySelector('.back-to-top');
+  
+  // Mostrar/ocultar botón de volver arriba según la posición de scroll
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (backToTopBtn) {
+      if (scrollTop > 600) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
+    }
+  });
+  
+  // Funcionalidad de volver arriba al hacer clic
+  if (backToTopBtn) {
+    backToTopBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
 }
