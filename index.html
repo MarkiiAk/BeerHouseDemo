@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeerHouse - Bar & Terraza Tropical | Las chelas más frías que el corazón de tu ex</title>
+  <meta name="description" content="BeerHouse - El bar que Zacatepec esperaba. Ambiente único, amigos increíbles y las chelas más frías que el corazón de tu ex.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+  
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Permanent+Marker&display=swap" rel="stylesheet">
+  
+  <!-- Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="dark-theme">
+  <!-- Barra de progreso -->
+  <div class="progress">
+    <span></span>
+  </div>
+
+  <!-- Header -->
+  <header class="hdr">
+    <div class="container">
+      <div class="bar">
+        <a href="#" class="brand">
+          <span class="logo-text">BeerHouse</span>
+        </a>
+        
+        <nav>
+          <ul class="menu">
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+          </ul>
+        </nav>
+        
+        <button class="burger" aria-expanded="false" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Menú móvil overlay -->
+  <div class="menu-overlay" aria-hidden="true">
+    <ul class="overlay-list">
+      <li><a href="#bebidas">Bebidas</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+    </ul>
+    
+    <div class="overlay-meta">
+      <a href="tel:+527771234567" class="btn btn-primary">Llamar ahora</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero / Portada -->
+    <section class="stage">
+      <div class="container">
+        <div class="stage-wrap">
+          <div class="stage-copy">
+            <h1 class="xxl">El bar que <span class="accent">Zacatepec</span> esperaba</h1>
+            <p class="lead">Ambiente único, amigos increíbles y las chelas más frías que el corazón de tu ex.</p>
+            
+            <ul class="chips">
+              <li>Música en vivo</li>
+              <li>Terraza tropical</li>
+              <li>Happy hour</li>
+            </ul>
+            
+            <div class="cta">
+              <a href="#ubicacion" class="btn btn-primary">Visítanos</a>
+              <a href="#eventos" class="btn btn-ghost">Próximos eventos</a>
+            </div>
+          </div>
+          
+          <div class="orb">
+            <img src="assets/img/hero.jpg" alt="BeerHouse Terraza Tropical" class="poster">
+          </div>
+        </div>
+      </div>
+      
+      <a href="#bebidas" class="scroll-hint">
+        <span>Descubre más</span>
+        <span class="material-symbols-rounded">expand_more</span>
+      </a>
+    </section>
+    
+    <!-- Ribbons / Banners -->
+    <section class="ribbons">
+      <div class="ribbon r1">
+        <div class="container">
+          <marquee scrollamount="5">
+            <span>🍻 <strong>HAPPY HOUR</strong> todos los jueves de 6PM a 9PM 🍻 <strong>2x1 EN CERVEZAS NACIONALES</strong> 🍻 <strong>SHOTS GRATIS</strong> en cumpleaños 🍻</span>
+          </marquee>
+        </div>
+      </div>
+      
+      <div class="ribbon r2">
+        <div class="container">
+          <marquee scrollamount="5" direction="right">
+            <span>🎵 <strong>MÚSICA EN VIVO</strong> todos los viernes y sábados 🎵 <strong>KARAOKE</strong> los miércoles 🎵 <strong>DJ INVITADO</strong> último sábado del mes 🎵</span>
+          </marquee>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Bebidas -->
+    <section id="bebidas">
+      <div class="container">
+        <div class="sec-head">
+          <h2>Nuestras <span class="accent">Bebidas</span></h2>
+          <p class="muted">Refrescantes, heladas y con el mejor sabor</p>
+        </div>
+        
+        <div class="menu-grid">
+          <div class="menu-category reveal">
+            <h3 class="menu-title">Cervezas Nacionales</h3>
+            <ul class="menu-list">
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Corona</span>
+                  <span class="item-price">$35</span>
+                </div>
+                <p class="item-desc">La clásica cerveza mexicana, servida con limón</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Victoria</span>
+                  <span class="item-price">$35</span>
+                </div>
+                <p class="item-desc">Cerveza tipo Vienna con sabor ligeramente dulce</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Modelo Especial</span>
+                  <span class="item-price">$40</span>
+                </div>
+                <p class="item-desc">Cerveza tipo Pilsner con cuerpo medio</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Pacífico</span>
+                  <span class="item-price">$35</span>
+                </div>
+                <p class="item-desc">Cerveza tipo Pilsner, ligera y refrescante</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Indio</span>
+                  <span class="item-price">$35</span>
+                </div>
+                <p class="item-desc">Cerveza oscura con notas de caramelo</p>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="menu-category reveal">
+            <h3 class="menu-title">Cervezas Importadas</h3>
+            <ul class="menu-list">
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Heineken</span>
+                  <span class="item-price">$45</span>
+                </div>
+                <p class="item-desc">Cerveza premium holandesa tipo lager</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Stella Artois</span>
+                  <span class="item-price">$50</span>
+                </div>
+                <p class="item-desc">Lager belga con más de 600 años de tradición</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Budweiser</span>
+                  <span class="item-price">$45</span>
+                </div>
+                <p class="item-desc">Lager americana, suave y refrescante</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Guinness</span>
+                  <span class="item-price">$60</span>
+                </div>
+                <p class="item-desc">Stout irlandesa, cremosa con notas de café</p>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="menu-category reveal">
+            <h3 class="menu-title">Cocteles</h3>
+            <ul class="menu-list">
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Margarita</span>
+                  <span class="item-price">$80</span>
+                </div>
+                <p class="item-desc">Tequila, triple sec y jugo de limón</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Piña Colada</span>
+                  <span class="item-price">$85</span>
+                </div>
+                <p class="item-desc">Ron, crema de coco y jugo de piña</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Mojito</span>
+                  <span class="item-price">$80</span>
+                </div>
+                <p class="item-desc">Ron, hierbabuena, limón y soda</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Caipirinha</span>
+                  <span class="item-price">$90</span>
+                </div>
+                <p class="item-desc">Cachaça, lima y azúcar</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Tequila Sunrise</span>
+                  <span class="item-price">$85</span>
+                </div>
+                <p class="item-desc">Tequila, jugo de naranja y granadina</p>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="menu-category reveal">
+            <h3 class="menu-title">Botanas</h3>
+            <ul class="menu-list">
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Nachos Supremos</span>
+                  <span class="item-price">$120</span>
+                </div>
+                <p class="item-desc">Con queso, guacamole, crema y pico de gallo</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Alitas (10 pzs)</span>
+                  <span class="item-price">$150</span>
+                </div>
+                <p class="item-desc">BBQ, Buffalo o Mango-Habanero</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Tabla de Quesos</span>
+                  <span class="item-price">$180</span>
+                </div>
+                <p class="item-desc">Selección de quesos, frutas y crackers</p>
+              </li>
+              <li>
+                <div class="menu-item">
+                  <span class="item-name">Guacamole</span>
+                  <span class="item-price">$90</span>
+                </div>
+                <p class="item-desc">Preparado al momento con totopos</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Eventos -->
+    <section id="eventos">
+      <div class="container">
+        <div class="sec-head">
+          <h2>Próximos <span class="accent">Eventos</span></h2>
+          <p class="muted">La mejor música y ambiente todos los fines de semana</p>
+        </div>
+        
+        <div class="stepper reveal">
+          <div class="step">
+            <div class="badge">20</div>
+            <h3>Viernes de Rock</h3>
+            <p>Banda invitada: Los Rockers</p>
+            <p class="muted">20 de Octubre, 8:00 PM</p>
+            <p>Disfruta de los mejores covers de rock clásico y contemporáneo con esta increíble banda local. ¡Entrada libre!</p>
+          </div>
+          
+          <div class="step">
+            <div class="badge">21</div>
+            <h3>Noche Tropical</h3>
+            <p>DJ Coco Loco</p>
+            <p class="muted">21 de Octubre, 9:00 PM</p>
+            <p>Ritmos caribeños, salsa, bachata y reggaeton para bailar toda la noche. ¡Promoción especial en cocteles tropicales!</p>
+          </div>
+          
+          <div class="step">
+            <div class="badge">27</div>
+            <h3>Karaoke Night</h3>
+            <p>Anfitrión: El Showman</p>
+            <p class="muted">27 de Octubre, 7:00 PM</p>
+            <p>Demuestra tu talento en nuestro karaoke semanal. ¡Premio para el mejor cantante de la noche!</p>
+          </div>
+          
+          <div class="step">
+            <div class="badge">28</div>
+            <h3>Halloween Party</h3>
+            <p>Fiesta de disfraces</p>
+            <p class="muted">28 de Octubre, 8:00 PM</p>
+            <p>Gran fiesta de Halloween con concurso de disfraces, decoración especial y cocteles temáticos. ¡Premio al mejor disfraz!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Galería -->
+    <section id="galeria">
+      <div class="container">
+        <div class="sec-head">
+          <h2>Nuestra <span class="accent">Galería</span></h2>
+          <p class="muted">Momentos inolvidables en BeerHouse</p>
+        </div>
+        
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal">
+            <img src="assets/img/gallery-1.jpg" alt="Terraza BeerHouse">
+            <figcaption>Nuestra terraza tropical</figcaption>
+          </figure>
+          
+          <figure class="gallery-item reveal">
+            <img src="assets/img/gallery-2.jpg" alt="Barra de bebidas">
+            <figcaption>Barra principal</figcaption>
+          </figure>
+          
+          <figure class="gallery-item reveal">
+            <img src="assets/img/gallery-3.jpg" alt="Evento en vivo">
+            <figcaption>Música en vivo</figcaption>
+          </figure>
+          
+          <figure class="gallery-item reveal">
+            <img src="assets/img/gallery-4.jpg" alt="Cocteles especiales">
+            <figcaption>Nuestros cocteles</figcaption>
+          </figure>
+          
+          <figure class="gallery-item reveal">
+            <img src="assets/img/gallery-5.jpg" alt="Fiesta temática">
+            <figcaption>Fiesta hawaiana</figcaption>
+          </figure>
+          
+          <figure class="gallery-item reveal">
+            <img src="assets/img/gallery-6.jpg" alt="Área de mesas">
+            <figcaption>Área lounge</figcaption>
+          </figure>
+        </div>
+        
+        <div class="sec-head" style="margin-top: var(--space-xl);">
+          <h3>Síguenos en Instagram</h3>
+          <p class="muted">@beerhousezacatepec</p>
+        </div>
+        
+        <div class="rail">
+          <figure class="gallery-item">
+            <img src="assets/img/insta-1.jpg" alt="Instagram BeerHouse">
+          </figure>
+          
+          <figure class="gallery-item">
+            <img src="assets/img/insta-2.jpg" alt="Instagram BeerHouse">
+          </figure>
+          
+          <figure class="gallery-item">
+            <img src="assets/img/insta-3.jpg" alt="Instagram BeerHouse">
+          </figure>
+          
+          <figure class="gallery-item">
+            <img src="assets/img/insta-4.jpg" alt="Instagram BeerHouse">
+          </figure>
+          
+          <figure class="gallery-item">
+            <img src="assets/img/insta-5.jpg" alt="Instagram BeerHouse">
+          </figure>
+          
+          <figure class="gallery-item">
+            <img src="assets/img/insta-6.jpg" alt="Instagram BeerHouse">
+          </figure>
+        </div>
+        
+        <div class="rail-ctrl">
+          <button class="rail-prev" aria-label="Anterior">
+            <span class="material-symbols-rounded">chevron_left</span>
+          </button>
+          <button class="rail-next" aria-label="Siguiente">
+            <span class="material-symbols-rounded">chevron_right</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Ubicación -->
+    <section id="ubicacion">
+      <div class="container">
+        <div class="sec-head">
+          <h2>Nuestra <span class="accent">Ubicación</span></h2>
+          <p class="muted">Ven a visitarnos, estamos en el corazón de Zacatepec</p>
+        </div>
+        
+        <div class="location-grid">
+          <div class="map-container reveal">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15089.16350426022!2d-99.20000000000001!3d18.65!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdde498547e12d%3A0x3f8ed2493a6b0bf!2sZacatepec%20de%20Hidalgo%2C%20Mor.!5e0!3m2!1ses-419!2smx!4v1634567890123!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          
+          <div class="location-info reveal">
+            <h3>Dirección</h3>
+            <address>
+              Av. Principal #123<br>
+              Col. Centro, Zacatepec<br>
+              Morelos, México<br>
+              CP 62780
+            </address>
+            
+            <h3>Horarios</h3>
+            <ul class="hours-list">
+              <li><span>Lunes - Miércoles:</span> 4:00 PM - 12:00 AM</li>
+              <li><span>Jueves:</span> 4:00 PM - 1:00 AM</li>
+              <li><span>Viernes - Sábado:</span> 4:00 PM - 2:00 AM</li>
+              <li><span>Domingo:</span> 2:00 PM - 10:00 PM</li>
+            </ul>
+            
+            <h3>Contacto</h3>
+            <ul class="contact-list">
+              <li>Teléfono: <a href="tel:+527771234567">777 123 4567</a></li>
+              <li>Email: <a href="mailto:info@beerhousezacatepec.com">info@beerhousezacatepec.com</a></li>
+              <li>WhatsApp: <a href="https://wa.me/527771234567">777 123 4567</a></li>
+            </ul>
+            
+            <div class="cta" style="margin-top: var(--space-lg);">
+              <a href="https://maps.google.com/?q=Zacatepec+Morelos" target="_blank" class="btn btn-primary">Cómo llegar</a>
+              <a href="tel:+527771234567" class="btn btn-ghost">Llamar ahora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Ribbon final -->
+    <section class="ribbons">
+      <div class="ribbon r3">
+        <div class="container">
+          <marquee scrollamount="5">
+            <span>🍺 <strong>RESERVA TU MESA</strong> para eventos especiales 🍺 <strong>ÁREA VIP</strong> disponible para grupos 🍺 <strong>ESTACIONAMIENTO GRATUITO</strong> para clientes 🍺</span>
+          </marquee>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="ftr">
+    <div class="container">
+      <div class="ftr-grid">
+        <div class="ftr-brand">
+          <h4 class="logo-text">BeerHouse</h4>
+          <p>El bar que Zacatepec esperaba. Ambiente único, amigos increíbles y las chelas más frías que el corazón de tu ex.</p>
+        </div>
+        
+        <div class="ftr-nav">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+          </ul>
+        </div>
+        
+        <div class="ftr-contact">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="tel:+527771234567">777 123 4567</a></li>
+            <li><a href="mailto:info@beerhousezacatepec.com">info@beerhousezacatepec.com</a></li>
+            <li><a href="https://maps.google.com/?q=Zacatepec+Morelos" target="_blank">Av. Principal #123, Zacatepec</a></li>
+          </ul>
+        </div>
+        
+        <div class="ftr-social">
+          <h4>Síguenos</h4>
+          <ul class="social-links">
+            <li><a href="https://facebook.com/beerhousezacatepec" target="_blank">Facebook</a></li>
+            <li><a href="https://instagram.com/beerhousezacatepec" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/beerhousezac" target="_blank">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="ftr-legal">
+        <p>&copy; 2025 BeerHouse - Bar & Terraza Tropical. Todos los derechos reservados.</p>
+        <p>Toma responsablemente. Prohibida la venta de alcohol a menores de edad.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
